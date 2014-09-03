@@ -1,3 +1,4 @@
+# dont forget to add domain "debian" to chroot /etc/hosts for localhost
 apt-get update
 apt-get install -y wget
 apt-get install -y alsa-base
