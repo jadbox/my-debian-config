@@ -1,1 +1,3 @@
+pulseaudio --kill
+pulseaudio --start
 schroot -p -c jessie386 playonlinux
