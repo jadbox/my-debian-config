@@ -11,4 +11,5 @@ echo
 exit 1
 fi
 
+WINEPREFIX=~/.PlayOnLinux/wineprefix WINE=/usr/bin/wine WINEARCH=win32
 PULSE_SERVER=/tmp/.netflix-pulse-socket PIPELIGHT_GPUACCELERATION=0 playonlinux

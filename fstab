@@ -1,0 +1,26 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/sdc2 during installation
+UUID=f560b4da-f8af-4825-b79e-c9299f32ad2e /               ext4    relatime,errors=remount-ro,user_xattr 0       1
+# /boot/efi was on /dev/sdc1 during installation
+UUID=6858-27C8  /boot/efi       vfat    defaults        0       1
+# swap was on /dev/sdc3 during installation
+UUID=af00b99e-6be3-4a5b-b0af-61dfc8c935d7 none            swap    sw              0       0
+/dev/sr0        /media/cdrom0   udf,iso9660 user,noauto     0       0
+
+# ia32 chroot
+#/proc           /var/chroot/jessie386/proc proc   defaults        0       0
+#/dev            /var/chroot/jessie386/dev  none   bind            0       0
+#/tmp            /var/chroot/jessie386/tmp  none   bind            0       0
+#/var/lib/dbus   /var/chroot/jessie386/var/lib/dbus      none    bind    0       0
+#/dev/shm            /var/chroot/jessie386/dev/shm  none   bind            0       0
+#/dev/pts            /var/chroot/jessie386/dev/pts  none   bind            0       0
+
+#$XDG_RUNTIME_DIR    /var/chroot/jessie386$XDG_RUNTIME_DIR  none   bind            0       0
+#/run/user/1000    /var/chroot/jessie386/run/user/1000  none   bind            0       0
+##/var/run/dbus            /var/chroot/jessie386/var/run/dbus  none   bind            0       0

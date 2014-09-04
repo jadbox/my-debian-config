@@ -6,4 +6,4 @@ then
 fi
 
 #sudo chroot /var/chroot/jessie386
-schroot -c jessie386 /bin/bash
+schroot -p -c jessie386 /bin/bash
