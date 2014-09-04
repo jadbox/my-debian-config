@@ -6,7 +6,7 @@
 #
 # <file system> <mount point>   <type>  <options>       <dump>  <pass>
 # / was on /dev/sdc2 during installation
-UUID=f560b4da-f8af-4825-b79e-c9299f32ad2e /               ext4    relatime,errors=remount-ro,user_xattr 0       1
+UUID=f560b4da-f8af-4825-b79e-c9299f32ad2e /               ext4    relatime,errors=remount-ro  0       1
 # /boot/efi was on /dev/sdc1 during installation
 UUID=6858-27C8  /boot/efi       vfat    defaults        0       1
 # swap was on /dev/sdc3 during installation
