@@ -23,3 +23,4 @@ winetricks -q vcrun2005 ie8 wininet d3dx9 corefonts adobeair
 
 # http://ubuntuforums.org/showthread.php?t=1307763
 # opengl32 - /etc/group video:x:44:jdunlap
+apt-get install -y pulseaudio
