@@ -1,0 +1,27 @@
+# 
+
+# deb cdrom:[Debian GNU/Linux jessie-DI-b1 _Jessie_ - Official Snapshot amd64 DVD Binary-1 20140812-11:02]/ jessie contrib main
+
+# deb cdrom:[Debian GNU/Linux jessie-DI-b1 _Jessie_ - Official Snapshot amd64 DVD Binary-1 20140812-11:02]/ jessie contrib main
+
+deb http://ftp.us.debian.org/debian/ jessie main
+deb-src http://ftp.us.debian.org/debian/ jessie main
+
+deb http://security.debian.org/ jessie/updates main contrib
+deb-src http://security.debian.org/ jessie/updates main contrib
+
+# jessie-updates, previously known as 'volatile'
+deb http://ftp.us.debian.org/debian/ jessie-updates main contrib
+deb-src http://ftp.us.debian.org/debian/ jessie-updates main contrib
+
+# jessie-backports, previously on backports.debian.org
+deb http://ftp.us.debian.org/debian/ jessie-backports main contrib
+deb-src http://ftp.us.debian.org/debian/ jessie-backports main contrib
+deb http://http.debian.net/debian/ jessie main contrib non-free
+
+#deb http://ftp.us.debian.org/debian/ sid main
+#deb http://ftp.us.debian.org/debian/ sid main contrib non-free
+#deb http://ftp.us.debian.org/debian/ sid-updates main contrib
+#deb http://ftp.us.debian.org/debian/ wheezy main contrib
+#deb http://http.debian.net/debian/ jessie-backports main contrib non-free
+#deb http://http.debian.net/debian/ experimental main contrib non-free
